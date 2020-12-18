@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+## Work Done
+
+-Created New Project structure with installation of packages.
+-created components like Hotel and Booking Components.
+-created basic Header and Footer for the website.
+-Implemented the Hotel component like it's 'displying' all the hotels list in tabular form by getting from hotel.json file.
+-implemented the 'searching' features ex: you can search the hotels by city name as per requirement.
+
+
+
+## Installation required for Project
+- Nodejs
+- npm
+- Visual studio code/ any other IDE
+- npm install -g @angular/cli
+- npm install bootstrap@3.3.7
+
+
+
+## To Run Project
+
+- Go to your project directory
+- ng serve -o
