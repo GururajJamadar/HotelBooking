@@ -1,0 +1,29 @@
+
+<h2>Hotel Details:</h2>
+
+<div style="float: right; width: 50%">
+<input type="text" class="form-control" [(ngModel)]="destinationName" placeholder="Serach by loaction.."/>
+</div>
+
+<br>
+<table class="table table-hover content">
+    <thead>
+      <tr>
+        <th>Hotel Code</th>
+        <th>Hotel Name</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let hotel of hotelsData?.hotels | customerEmailFilter:destinationName;let i = index">
+        <td>{{hotel.propertyCode}}</td>
+        <td>{{hotel.name}}</td>
+        <td>{{hotel.address.city }}</td>
+        <td><a href="#">View Details</a></td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <br><br><br>
+

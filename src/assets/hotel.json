@@ -1,0 +1,410 @@
+{
+    "hotels" : [
+        {
+            "name": "THE TAJ",
+            "propertyCode": "IN001",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Bangalore",
+            "address": {
+                "streetAddress": "street 18, bangalore",
+                "postalCode": "560102",
+                "city": "Bangalore",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9949890224",
+                "frontDeskEmailId": "cl.sign@test.com"
+            },
+            "location": {
+                "latitude": 13.01055307969328,
+                "longitude": 77.65793729671789
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2008-02-05",
+            "currency": "INR"
+        },
+        {
+            "name": "THE OBEROI GRAND",
+            "propertyCode": "IN002",
+            "orgNumber": "556465-0108",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Kolkata",
+            "address": {
+                "streetAddress": "street 19, Kolkata",
+                "postalCode": "700027",
+                "city": "Kolkata",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9589462358",
+                "frontDeskEmailId": "ckol.sign@test.com"
+            },
+            "location": {
+                "latitude": 56.334358215332,
+                "longitude": 16.0535793304443
+            },
+            "roomCapacity": 560,
+            "statusLevel": "Active",
+            "openingDate": "2008-03-15",
+            "currency": "INR"
+        },
+        {
+            "name": " THE TAJ MAHAL PALACE",
+            "propertyCode": "IN003",
+            "orgNumber": "556465-0108",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Mumbai",
+            "address": {
+                "streetAddress": "street 19, Mumbai",
+                "postalCode": "400037",
+                "city": "Mumbai",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9658590225",
+                "frontDeskEmailId": "taj.sign@test.com"
+            },
+            "location": {
+                "latitude": 46.334358215332,
+                "longitude": 26.0535793304443
+            },
+            "roomCapacity": 560,
+            "statusLevel": "Active",
+            "openingDate": "2009-08-13",
+            "currency": "INR"
+        },
+        {
+            "name": " THE LEELA PALACE",
+            "propertyCode": "IN004",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Bangalore",
+            "address": {
+                "streetAddress": "street 18, bangalore",
+                "postalCode": "560101",
+                "city": "Bangalore",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845544520",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 64.334358215332,
+                "longitude": 22.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": " THE IMPERIAL HOTEL",
+            "propertyCode": "IN005",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "New Delhi",
+            "address": {
+                "streetAddress": "street 18, New Delhi",
+                "postalCode": "110001",
+                "city": "New Delhi",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845544520",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 68.334358215332,
+                "longitude": 21.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": " ITC GRAND CHOLA",
+            "propertyCode": "IN006",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Chennai",
+            "address": {
+                "streetAddress": "street 18, Chennai",
+                "postalCode": "600002",
+                "city": "Chennai",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 68.334358215332,
+                "longitude": 20.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": "SOUKYA",
+            "propertyCode": "IN007",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Bangalore",
+            "address": {
+                "streetAddress": "street 18, bangalore",
+                "postalCode": "560103",
+                "city": "Bangalore",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": "SHREYAS",
+            "propertyCode": "IN008",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Bangalore",
+            "address": {
+                "streetAddress": "street 18, bangalore",
+                "postalCode": "560103",
+                "city": "Bangalore",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": " ITC MAURYA",
+            "propertyCode": "IN009",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "New Delhi",
+            "address": {
+                "streetAddress": "street 18, New Delhi",
+                "postalCode": "110001",
+                "city": "New Delhi",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": " TAJ FALAKNUMA PALACE",
+            "propertyCode": "IN010",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Hyderabad",
+            "address": {
+                "streetAddress": "street 18, Hyderabad",
+                "postalCode": "500030",
+                "city": "Hyderabad",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": "HOTEL ROYAL ORCHID",
+            "propertyCode": "IN011",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Bangalore",
+            "address": {
+                "streetAddress": "street 18, bangalore",
+                "postalCode": "560103",
+                "city": "Bangalore",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": " AVASA HOTEL",
+            "propertyCode": "IN012",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Hyderabad",
+            "address": {
+                "streetAddress": "street 18, Hyderabad",
+                "postalCode": "500030",
+                "city": "Hyderabad",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": "TRIDENT HOTEL",
+            "propertyCode": "IN013",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Hyderabad",
+            "address": {
+                "streetAddress": "street 18, Hyrderabad",
+                "postalCode": "500030",
+                "city": "Hyrderabad",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        },
+        {
+            "name": "WELCOMHOTEL CHENNAI ",
+            "propertyCode": "IN014",
+            "orgNumber": "556466-0107",
+            "brandCode": "CLA",
+            "brandName": "MMMMM",
+            "regionCode": "11",
+            "destinationCode": "471",
+            "destinationName": "Chennai",
+            "address": {
+                "streetAddress": "street 18, Chennai",
+                "postalCode": "600002",
+                "city": "Chennai",
+                "country": "India",
+                "countryCode": "IN"
+            },
+            "contactDetails": {
+                "phoneNumber": "+91 9845565850",
+                "frontDeskEmailId": "leela@test.com"
+            },
+            "location": {
+                "latitude": 70.334358215332,
+                "longitude": 24.0535793304443
+            },
+            "roomCapacity": 558,
+            "statusLevel": "Active",
+            "openingDate": "2010-08-02",
+            "currency": "INR"
+        }
+        ]
+    }  
