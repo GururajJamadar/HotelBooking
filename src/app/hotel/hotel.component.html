@@ -1,11 +1,12 @@
 
 <h2>Hotel Details:</h2>
+<hr>
 
 <div style="float: right; width: 50%">
 <input type="text" class="form-control" [(ngModel)]="destinationName" placeholder="Serach by loaction.."/>
 </div>
 
-<br>
+<br><br>
 <table class="table table-hover content">
     <thead>
       <tr>
@@ -20,10 +21,11 @@
         <td>{{hotel.propertyCode}}</td>
         <td>{{hotel.name}}</td>
         <td>{{hotel.address.city }}</td>
-        <td><a href="#">View Details</a></td>
+        <td (click)="hotelDetail(hotel)"><a>View Details</a></td>
       </tr>
     </tbody>
   </table>
  
   <br><br><br>
+
 

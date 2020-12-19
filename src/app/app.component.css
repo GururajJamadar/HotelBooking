@@ -6,10 +6,12 @@
     flex-direction: column;
   }
   .header{
+    margin: 0;
+    padding: 0;
     flex-shrink: 0;
     flex-grow: 0;
-    background: #039be5;
-    padding: 3px 5px;
+    background: #0f1120;
+    margin-left: -15px;
     width: 100;
   }
   .content{
@@ -19,35 +21,34 @@
     position: relative;
     overflow-y: auto;
   }
-  
-  .footer{
-    flex-shrink: 0;
-    flex-grow: 0;
-    background: #eee;
-    padding: 3px 15px;
-  }
+
   p {
     font-family: Lato;
   }
   
-  nav a {
-    padding: 5px 10px;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-    background-color: #eee;
-    border-radius: 4px;
+  nav {
+    background: #0f1120 !important;
   }
-  
-  nav a:visited, a:link {
-    color: #607D8B;
+  .navbar-brand {
+    font-family: "Padauk", sans-serif;
+    color: white !important;
   }
-  nav a:hover {
-    color: #039be5;
-    background-color: #CFD8DC;
+  .nav-link {
+    color: white !important;
   }
-  nav a.active {
-    color: #039be5;
+
+  footer {
+    background: #1d1f2d !important;
+    margin-left: -15px;
   }
-  
-  
+
+  .home{
+    float: right;
+    margin: 20px;
+    color: floralwhite;
+    font-size: medium;
+  }
+
+
+
+

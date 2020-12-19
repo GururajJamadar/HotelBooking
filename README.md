@@ -29,14 +29,23 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-## Work Done
-
+## Work Done 
+## Date 18-12-2020
 -Created New Project structure with installation of packages.
 -created components like Hotel and Booking Components.
 -created basic Header and Footer for the website.
 -Implemented the Hotel component like it's 'displying' all the hotels list in tabular form by getting from hotel.json file.
 -implemented the 'searching' features ex: you can search the hotels by city name as per requirement.
 
+## Date 19-12-2020
+- Changes done in Header and Footer
+- In Hotels Detail page created a column called 'Action' if you click on view details, It will redirect
+    to the Booking details page.
+- Implemented Booking details page it contains details of hotel and details of member whoever
+     booked  that perticular hotel. (Done by Component to Component Communication by Service)
+- Created a Service for component interaction.
+- Handled Exception, if bookings are not there then message will be displayed like 
+    "No Bookings found".
 
 
 ## Installation required for Project

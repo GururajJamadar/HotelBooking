@@ -1,1 +1,56 @@
-<p>booking works!</p>
+
+<!-- <div class="container"> -->
+    <h2>Booking Details:</h2>
+    <hr>
+    <div class="col-sm-12 md-12">
+    <div class="row">
+
+      <div class="col-sm-7 col-md-7 card bg-info text-white">
+        <div class="card-body">
+          <table class="table">
+            <tbody>
+              <tr class="info labels">
+                Hotel Name <td>: {{hotelDetail.name}}</td>
+              </tr>
+              <tr class="info labels">
+                City <td>: {{hotelDetail.address.city}}</td>
+              </tr>
+              <tr class="info labels">
+                Phone Number <td>: {{hotelDetail.contactDetails.phoneNumber}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-sm-2" style="background-color:white;"></div>
+      <div class="col-sm-3" style="background-color:white;">
+        <p>MAP</p>
+      </div>
+    </div><br>
+  </div>
+
+  <table class="table table-bordered">
+    <thead style="background: rgb(65, 85, 85); color: white;">
+      <tr>
+        <th>Booked By</th>
+        <th>Room Number</th>
+        <th>Room Type</th>
+        <th>Phone Number</th>
+        <th>Reservation Status</th>
+        <th>Booking Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of filterData">
+        <td>{{book.rooms[0].primaryGuest}}</td>
+        <td>{{book.rooms[0].roomNumber}}</td>
+        <td>{{book.rooms[0].roomType}}</td>
+        <td>{{book.rooms[0].primaryGuestPhoneNumber}}</td>
+        <td>{{book.reservationStatus}}</td>
+        <td>{{book.totalCost}}</td>
+      </tr>
+      <tr *ngIf="filterData.length === 0" style="font-size: 30px; color: red;">No Bookings Found</tr>
+     
+    </tbody>
+  </table>

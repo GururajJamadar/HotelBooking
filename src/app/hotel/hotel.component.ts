@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
+import { SharedServiceService } from '../shared-service.service'
 
 
 @Component({
@@ -11,11 +13,17 @@ export class HotelComponent implements OnInit {
   hotelsData: any;
   destinationName = "";
 
-  constructor(private  httpClient: HttpClient) { }
+  constructor(private  httpClient: HttpClient,  private hotelSer:SharedServiceService, private router:Router) { }
 
   ngOnInit(): void {
     this.httpClient.get<any>("assets/hotel.json").subscribe((data)=>
     this.hotelsData = data); 
   }
+
+  hotelDetail(hotel: any){
+    this.hotelSer.setHotelDetail(hotel);
+    this.router.navigate(['./booking']);
+  
+    }
 
 }
