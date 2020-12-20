@@ -17,7 +17,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let hotel of hotelsData?.hotels | customerEmailFilter:destinationName;let i = index">
+      <tr *ngFor="let hotel of hotelsData?.hotels | customerEmailFilter:destinationName; let i = index">
         <td>{{hotel.propertyCode}}</td>
         <td>{{hotel.name}}</td>
         <td>{{hotel.address.city }}</td>

@@ -5,7 +5,7 @@
     <div class="col-sm-12 md-12">
     <div class="row">
 
-      <div class="col-sm-7 col-md-7 card bg-info text-white">
+      <div class="col-sm-7 col-md-7 card bg-info text-white" style="height: 250px;">
         <div class="card-body">
           <table class="table">
             <tbody>
@@ -18,17 +18,26 @@
               <tr class="info labels">
                 Phone Number <td>: {{hotelDetail.contactDetails.phoneNumber}}</td>
               </tr>
+              <tr class="info labels">
+                Status <td>: {{hotelDetail.statusLevel}}</td>
+              </tr>
             </tbody>
           </table>
         </div>
       </div>
 
-      <div class="col-sm-2" style="background-color:white;"></div>
+      <div class="col-sm-1 md-1"></div>
       <div class="col-sm-3" style="background-color:white;">
-        <p>MAP</p>
+        <agm-map [zoom]="16" [latitude]="lat" [longitude]="lng">
+          <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
       </div>
     </div><br>
+    <hr><br>
+    
   </div>
+
+
 
   <table class="table table-bordered">
     <thead style="background: rgb(65, 85, 85); color: white;">

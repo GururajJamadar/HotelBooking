@@ -47,6 +47,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Handled Exception, if bookings are not there then message will be displayed like 
     "No Bookings found".
 
+## Date 20-12-2020
+- Mainly worked on Maps, Implemented maps in project in booking component
+  it displays the hotel map based on latitude and longitude values.
+  I did collect original longitude and latitude values of the hotels and displayed the location accordingly in the map.
+- created Login and Member component and designed static page for login.
+- Small changes done in header part like created home link it will redirect to home page.
+
 
 ## Installation required for Project
 - Nodejs
@@ -54,10 +61,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Visual studio code/ any other IDE
 - npm install -g @angular/cli
 - npm install bootstrap@3.3.7
+- npm install @agm/core
+- npm install @types/googlemaps@3.39.12 --save-dev
 
 
 
-## To Run Project
+## Commands to run project
 
 - Go to your project directory
 - ng serve -o
