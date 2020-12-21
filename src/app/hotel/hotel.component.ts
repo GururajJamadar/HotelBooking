@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
-import { SharedServiceService } from '../shared-service.service'
+import { SharedServiceService } from '../shared-service.service';
 
 
 @Component({

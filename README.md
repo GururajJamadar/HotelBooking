@@ -54,6 +54,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - created Login and Member component and designed static page for login.
 - Small changes done in header part like created home link it will redirect to home page.
 
+## Date 21-12-2020
+- Worked on Member Component and Login component,
+- when Member login by his UserId and password then it will redirect to member page
+  (Login Id and Paswd mentioned below).
+- Implemented member page it contains all the booking details of that perticular member.
+- Implemented login page with validation.
+- As per requiremment i took only one MemberId for login purpose, userName and Password 
+  details are mentioned below.
+NOTE: UserId : 12345 and PASWD: 12345678
+
 
 ## Installation required for Project
 - Nodejs

@@ -1,1 +1,22 @@
-<p>member works!</p>
+<h3>Member Booking Details</h3>
+<br>
+<label>Member Name :  {{guestName}}</label>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Hotel Name</th>
+        <th>Room Number</th>
+        <th>Reservation Status</th>
+        <th>Reservation ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor= "let memberData of filterData ;">
+        <td>{{memberData.hotel.name}}</td>
+        <td>{{memberData.rooms[0].roomNumber}}</td>
+        <td>{{memberData.reservationStatus}}</td>
+        <td>{{memberData.reservationId}}</td>
+      </tr>
+    </tbody>
+  </table>
+
