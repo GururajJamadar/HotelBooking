@@ -17,7 +17,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let hotel of hotelsData?.hotels | customerEmailFilter:destinationName; let i = index">
+      <tr *ngFor="let hotel of hotelsData?.hotels | customerEmailFilter:destinationName | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
         <td>{{hotel.propertyCode}}</td>
         <td>{{hotel.name}}</td>
         <td>{{hotel.address.city }}</td>
@@ -25,6 +25,7 @@
       </tr>
     </tbody>
   </table>
+  <pagination-controls (pageChange)="p = $event" class="page"></pagination-controls>
 
   <br><br><br>
 

@@ -64,6 +64,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   details are mentioned below.
 NOTE: UserId : 12345 and PASWD: 12345678
 
+## Date 22-12-2020
+- Worked on additional features
+- Implemented pagination for project.
+- Implementation continued login page with kinds of alert messages which can be customized to 
+  match the look and feel of our own website.
+
 
 ## Installation required for Project
 - Nodejs
@@ -73,6 +79,8 @@ NOTE: UserId : 12345 and PASWD: 12345678
 - npm install bootstrap@3.3.7
 - npm install @agm/core
 - npm install @types/googlemaps@3.39.12 --save-dev
+- npm install ngx-pagination --save
+- npm install --save sweetalert2
 
 
 

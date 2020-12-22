@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2'
 
 
 @Component({
@@ -13,6 +14,8 @@ export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
   loading = false;
   submitted = false;
+  passwords = "12345678";
+  userName = "12345";
 
 
   constructor( private formBuilder: FormBuilder, private router: Router ) { }
@@ -36,10 +39,21 @@ export class LoginComponent implements OnInit {
       return;
     }
     console.log("adasdadsadada", login)
-    if (login.username == "12345" && login.password == "12345678") {
+    if (login.username == this.userName && login.password == this.passwords) {
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'successfully logged in..!',
+        showConfirmButton: true,
+      })
       this.router.navigate(['/member']);
     } else {
-   alert("invalid username and password..!!");
+      Swal.fire({
+        icon: 'error',
+        title: 'Login failed',
+        text: 'Invalid username or password',
+        footer: '<a href>Home?</a>'
+      })
     }
   }
 

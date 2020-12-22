@@ -10,6 +10,7 @@ import { SharedServiceService } from '../shared-service.service';
   styleUrls: ['./hotel.component.css']
 })
 export class HotelComponent implements OnInit {
+  p: number = 1;
   hotelsData: any;
   destinationName = "";
 

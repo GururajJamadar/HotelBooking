@@ -9,7 +9,7 @@ import { SharedServiceService } from '../shared-service.service';
 })
 export class MemberComponent implements OnInit {
 
-
+  p: number = 1;
   memberData: any[]=[];
   filterData: any[]=[];
   guestName: any = "John Smith";

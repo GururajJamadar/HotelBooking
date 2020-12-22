@@ -11,7 +11,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor= "let memberData of filterData ;">
+      <tr *ngFor= "let memberData of filterData | paginate: { itemsPerPage: 5, currentPage: p } ;">
         <td>{{memberData.hotel.name}}</td>
         <td>{{memberData.rooms[0].roomNumber}}</td>
         <td>{{memberData.reservationStatus}}</td>
@@ -19,4 +19,5 @@
       </tr>
     </tbody>
   </table>
+  <pagination-controls (pageChange)="p = $event" class="page"></pagination-controls>
 
